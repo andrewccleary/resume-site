@@ -111,7 +111,6 @@ function App() {
             LinkedIn
           </a>
         </div>
-        <Lottie className="Swipe-arrow" options={arrowOptions} height={75} width={75} />
       </header>
       <div className="Experience">
         <h1>
@@ -120,6 +119,7 @@ function App() {
         <div className="Experience-header">
           <Lottie options={electricalPanelOptions} height={100} width={100} />
           <h4>GE Appliances, a Haier company</h4>
+          <h6>Digital Leadership Development Program (DLDP) Associate</h6>
           <p>Full-stack web developer focused on building desktop and mobile web applications using the Angular framework to support supply chain and manufacturing business functions in North America</p>
           <p>Product owner for Lean manufacturing team’s Yamazumi digitization project – translating business requirements into User Stories and leading development efforts within Scrum team</p>
           <p>Employ cloud-first architectures to build scalable solutions within AWS (API Gateway, Lambda, DynamoDB, S3, Cognito)</p>
@@ -129,6 +129,7 @@ function App() {
         <div>
           <Lottie options={facebookOptions} height={100} width={100} />
           <h4>Facebook</h4>
+          <h6>Data Engineering/Analytics Intern</h6>
           <p>Owner and architect of all WhatsApp Business API key metric data pipelines</p>
           <p>Developed dynamic pipeline framework to automatically generate and schedule DataSwarm pipelines</p>
           <p>Scripted and optimized Presto/Spark SQL queries for performance in distributed environment</p>
@@ -138,6 +139,7 @@ function App() {
         <div>
           <Lottie options={energyOptions} height={100} width={100} />
           <h4>LGE and KU Energy</h4>
+          <h6>IT Intern/Co-Op III</h6>
           <p>Developed ETL data pipelines using Microsoft SQL Server Integration Services to extract from SAP/Oracle/SQL Server/Flat Files to populate SQL Server data warehouse</p>
           <p>Developed multi-threaded .NET applications to transform data from external vendors</p>
           <p>Performed data pipeline troubleshooting, supported existing pipeline maintenance and upgrades through parallelization and SQL query optimization</p>
@@ -146,6 +148,7 @@ function App() {
         <div>
           <Lottie options={codeOptions} height={100} width={100} />
           <h4>The Rawlings Group</h4>
+          <h6>Software Engineer Co-Op</h6>
           <p>Developed .NET applications for mass tort litigation (legal) department to assist in external data import processes, internal finance workflows, and internal workflow automation</p>
           <p>Oversaw import of raw data from external vendors through internal import and standardization data pipelines</p>
           <p>Accommodated data transformation requirements through SQL scripts and modification to internal .NET standardization applications</p>
@@ -157,15 +160,15 @@ function App() {
         <h1>
           Education
         </h1>
-        <div>
-          <h3>Master of Engineering, Summa Cum Laude</h3>
+        <div className="Degree-box">
+          <h3><b>Master of Engineering</b></h3>
           <h4>Computer Science and Engineering</h4>
-          <h5>University of Louisville, J.B. Speed School of Engineering</h5>
+          <h5>University of Louisville, <i>J.B. Speed School of Engineering</i></h5>
         </div>
-        <div>
-          <h3>Bachelor of Science, Magna Cum Laude</h3>
+        <div className="Degree-box">
+          <h3><b>Bachelor of Science</b></h3>
           <h4>Computer Engineering and Computer Science</h4>
-          <h5>University of Louisville, J.B. Speed School of Engineering</h5>
+          <h5>University of Louisville, <i>J.B. Speed School of Engineering</i></h5>
         </div>
       </div>
       <div className="Certifications">
@@ -183,6 +186,10 @@ function App() {
           <h3>Microsoft Power BI</h3>
           <p>Tandem Solutions</p>
         </div>
+      </div>
+      <div className="Footer">
+        <img className="Profile" src="/images/headshot.jpeg" alt="Avatar"></img>
+        <p>&#169; Andrew Cleary 2021</p>
       </div>
     </div>
   );

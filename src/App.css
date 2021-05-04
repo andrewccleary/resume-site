@@ -47,6 +47,19 @@
   margin-right: 10px;
 }
 
+.Profile {
+  border-radius: 50%;
+  width: 100px;
+  border: 2px solid white;
+  margin-top: 10px;
+}
+
+.Footer {
+  background-color: #282c34;
+  color: white;
+  height: 200px;
+}
+
 .App-link {
   color: #61dafb;
   margin-left: 10px;
@@ -76,6 +89,18 @@ hr.rounded {
 
 .Swipe-arrow {
   justify-content: baseline;
+}
+
+.Degree-box {
+  border-radius: 25px;
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 90vw;
+  color: #282c34;
 }
 
 body {
