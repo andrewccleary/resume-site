@@ -1,0 +1,25 @@
+{
+  "short_name": "Andrew Cleary",
+  "name": "Andrew Cleary",
+  "icons": [
+    {
+      "src": "ac-logo.png",
+      "sizes": "1501x1501",
+      "type": "image/pnc"
+    },
+    {
+      "src": "images/ac-logo.png",
+      "type": "image/png",
+      "sizes": "1501x1501"
+    },
+    {
+      "src": "images/ac-logo.png",
+      "type": "image/png",
+      "sizes": "1501x1501"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
