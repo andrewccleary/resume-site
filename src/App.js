@@ -12,7 +12,6 @@ import arrowLottie from './lotties/42594-arrow';
 import certificateLottie from './lotties/34223-certificate';
 import booksLottie from './lotties/34490-book-animation';
 import Button from '@material-ui/core/Button';
-import Link from '@material-ui/core/Link';
 
 
 function App() {
