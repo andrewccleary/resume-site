@@ -1,4 +1,7 @@
 import './App.css';
+import Education from './components/education/Education';
+import Experience from './components/experience/Experience';
+import Skill from './components/skill/Skill';
 import Lottie from 'react-lottie';
 import developerLottie from './lotties/27432-developer';
 import electricalPanelLottie from './lotties/29137-electrical-panel';
@@ -160,16 +163,16 @@ function App() {
         <h1>
           Education
         </h1>
-        <div className="Degree-box">
-          <h3><b>Master of Engineering</b></h3>
-          <h4>Computer Science and Engineering</h4>
-          <h5>University of Louisville, <i>J.B. Speed School of Engineering</i></h5>
-        </div>
-        <div className="Degree-box">
-          <h3><b>Bachelor of Science</b></h3>
-          <h4>Computer Engineering and Computer Science</h4>
-          <h5>University of Louisville, <i>J.B. Speed School of Engineering</i></h5>
-        </div>
+        <Education degree="Master of Engineering"
+          field="Computer Science and Engineering"
+          university="University of Louisville"
+          college="J.B. Speed School of Engineering"
+        />
+        <Education degree="Bachelor of Science"
+          field="Computer Engineering and Computer Science"
+          university="University of Louisville"
+          college="J.B. Speed School of Engineering"
+        />
       </div>
       <div className="Certifications">
         <Lottie options={certificateOptions} height={100} width={100} />
@@ -187,9 +190,10 @@ function App() {
           <p>Tandem Solutions</p>
         </div>
       </div>
+      <Skill></Skill>
       <div className="Footer">
         <img className="Profile" src="/images/headshot.jpeg" alt="Avatar"></img>
-        <p>&#169; Andrew Cleary 2021</p>
+        <p>&#169; Andrew Cleary 2021. All Rights Reserved</p>
       </div>
     </div>
   );
