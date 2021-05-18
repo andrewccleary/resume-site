@@ -9,8 +9,10 @@ import facebookLottie from './lotties/38798-facebook';
 import energyLottie from './lotties/52366-energy';
 import codeLottie from './lotties/24982-code.json';
 import arrowLottie from './lotties/42594-arrow';
-import certificateLottie from './lotties/34223-certificate'
-import booksLottie from './lotties/34490-book-animation'
+import certificateLottie from './lotties/34223-certificate';
+import booksLottie from './lotties/34490-book-animation';
+import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
 
 
 function App() {
@@ -193,6 +195,7 @@ function App() {
       <Skill></Skill>
       <div className="Footer">
         <img className="Profile" src="/images/headshot.jpeg" alt="Avatar"></img>
+        <Button className="Download-button" href="https://s3.amazonaws.com/shutterflowapp.com/AndrewCleary_Resume_Download.pdf" variant="contained">Download Resume</Button>
         <p>&#169; Andrew Cleary 2021. All Rights Reserved</p>
       </div>
     </div>
