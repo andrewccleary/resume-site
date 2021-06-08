@@ -25,7 +25,6 @@ class Skill extends React.Component {
             <div className="Skill">
                 <h1>Technical Skills</h1>
                 <p>Select a category to expand.</p>
-                <p>{data}</p>
                 <div className="Skill-box">
                     <Accordion>
                         <AccordionSummary className="Skill-header" expandIcon={<ExpandMoreIcon />}>
