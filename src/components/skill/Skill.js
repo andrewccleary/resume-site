@@ -4,15 +4,28 @@ import { BarChart, Cloud, Language } from '@material-ui/icons';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Chip from '@material-ui/core/Chip';
 import { Accordion, AccordionDetails, AccordionSummary } from '@material-ui/core';
+import { Octokit, App, Action } from "octokit";
 
 
 class Skill extends React.Component {
+
+    constructor(props){
+        super(props)
+        // Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
+        const octokit = new Octokit({ auth: `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` });
+
+        // Compare: https://docs.github.com/en/rest/reference/users#get-the-authenticated-user
+        var data = async() => {
+            await octokit.rest.users.getAuthenticated();
+        }
+    }
 
     render() {
         return (
             <div className="Skill">
                 <h1>Technical Skills</h1>
                 <p>Select a category to expand.</p>
+                <p>{data}</p>
                 <div className="Skill-box">
                     <Accordion>
                         <AccordionSummary className="Skill-header" expandIcon={<ExpandMoreIcon />}>
