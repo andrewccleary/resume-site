@@ -1,0 +1,27 @@
+.main {
+    padding: 10px;
+}
+
+.video-header {
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+}
+
+.video div {
+    min-width: 50%;
+    max-width: 550px;
+    align-items: center;
+}
+
+.video div h3 {
+    text-align: center;
+}
+
+.video div p {
+    text-align: justify;
+}

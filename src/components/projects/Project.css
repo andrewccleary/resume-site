@@ -1,0 +1,23 @@
+.github-button {
+    width: 30px;
+}
+
+.project-header {
+    text-align: center;
+}
+
+.project-description {
+    text-align: justify;
+}
+
+.light-project {
+    background-color: white;
+    color: #282c34;
+    padding: 10px;
+}
+
+.dark-project {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+}
