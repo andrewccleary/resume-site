@@ -6,22 +6,34 @@
     text-align: center;
 }
 
-.video {
+.mobile-video-list {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
     align-content: center;
 }
 
-.video div {
-    min-width: 50%;
-    max-width: 550px;
-    align-items: center;
+.mobile-video-list div {
+    align-content: center;
 }
 
-.video div h3 {
+.mobile-video-list h3 {
     text-align: center;
 }
 
-.video div p {
+.mobile-video-list p {
     text-align: justify;
+}
+
+.mobile-video-list iframe {
+    align-content: center;
+}
+
+.browser-video-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.youtube-button {
+    width: 100px;
+    height: auto;
 }

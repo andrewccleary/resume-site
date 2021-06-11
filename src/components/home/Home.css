@@ -112,6 +112,16 @@
     max-width: 90vw;
     color: #282c34;
   }
+
+  .Footer {
+    background-color: white;
+    color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
   
   body {
     font-family: 'Quicksand', sans-serif;

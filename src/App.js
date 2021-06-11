@@ -31,8 +31,6 @@ function App() {
         </Switch>
       </div>
       <footer className="Footer">
-        <img className="Profile" src="/images/headshot.jpeg" alt="Avatar"></img>
-        <Button className="Download-button" href="https://s3.amazonaws.com/shutterflowapp.com/AndrewCleary_Resume_Download.pdf" variant="contained">Download Resume</Button>
         <p>&#169; Andrew Cleary 2021. All Rights Reserved</p>
       </footer>
     </Router>
@@ -75,8 +73,8 @@ function MenuDrawer() {
 
   return (
     <div>
-      <div>
-        <Button onClick={toggleDrawer(true)}><Menu /></Button>
+      <div class="menu-bar">
+        <Button onClick={toggleDrawer(true)}><Menu/></Button>
       </div>
       <Drawer anchor={'top'} open={state['top']} onClose={toggleDrawer(false)}>
         {list()}

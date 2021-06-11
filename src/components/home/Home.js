@@ -6,6 +6,9 @@ import Education from '../education/Education';
 import Experience from '../experience/Experience';
 import Skill from '../skill/Skill';
 
+// Modules
+import { Button } from '@material-ui/core';
+
 // Lotties
 import Lottie from 'react-lottie';
 import developerLottie from '../../lotties/27432-developer';
@@ -193,6 +196,10 @@ function Home() {
         </div>
       </div>
       <Skill></Skill>
+      <div class="Footer">
+        <img className="Profile" src="/images/headshot.jpeg" alt="Avatar"></img>
+        <Button className="Download-button" href="https://s3.amazonaws.com/shutterflowapp.com/AndrewCleary_Resume_Download.pdf" variant="contained">Download Resume</Button>
+      </div>
     </div>
   );
 }
